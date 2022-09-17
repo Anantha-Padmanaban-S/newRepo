@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Blaka+Ink&family=Lobster&family=Roboto+Mono:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #efefbb;
+    background: linear-gradient(to right, #c3bee9, #efefbb);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+
+}
+
+h1 {
+    letter-spacing: 5px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    /* overflow-x: scroll; */
+
+}
+
+
+.pokemon {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 12px;
+    padding: 10px;
+    text-align: center;
+    border: 5px;
+    height: 480px;
+    width: 240px;
+
+}
+
+.pokemon .img-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.pokemon .img-container img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.pokemon .info {
+    margin-top: 10px;
+
+}
+
+.pokemon .info .idNo {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.8em;
+
+}
+
+.pokemon .info .name {
+    letter-spacing: 0.5px;
+    font-family: 'Lobster', cursive;
+    margin: auto;
+}
+
+.pokemon .info .details .type {
+    font-family: 'Blaka Ink', cursive;
+    font-size: x-large;
+}
+
+.pokemon .info .details .weight {
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+}
+
+.pokemon .info .details .moves {
+    font-family: 'Lobster', cursive;
+}
+
+.pokemon .info .details .Ability {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.search-box {
+    position: relative;
+    max-width: 500px;
+    width: 50%;
+    height: 35px;
+    display: flex;
+}
